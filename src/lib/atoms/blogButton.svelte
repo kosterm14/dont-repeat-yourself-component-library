@@ -9,6 +9,8 @@
 
 <style>
   button {
+    font-family: var(--vtPrimaryFont);
+    font-weight: bold;
     color: var(--vtDarkBlue);
     border-radius: 0.3em;
     background-color: var(--vtRed-50);
