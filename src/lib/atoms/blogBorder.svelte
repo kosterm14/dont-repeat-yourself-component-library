@@ -11,19 +11,23 @@
 
 <style>
   .cardscolordarkblue {
-    width: 14em;
-    height: 20em;
+    /* width: 14em;
+    height: 20em; */
+    width: 16em;
+    height: 12em;
     border-radius: 2%;
-    border: 3px solid var(--vtDarkBlue);
+    border: 4px solid var(--vtDarkBlue);
     padding: 0.6em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
   .cardyellow {
-    width: 14em;
-    height: 20em;
+    /* width: 14em;
+    height: 20em; */
+    width: 16em;
+    height: 12em;
     border-radius: 2%;
-    border: 3px solid var(--vtYellow);
+    border: 4px solid var(--vtYellow);
     padding: 0.6em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
