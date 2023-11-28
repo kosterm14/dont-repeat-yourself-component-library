@@ -1,4 +1,4 @@
-<section class="blogbutton1">
+<!-- <section class="blogbutton1">
   <button>Lees meer</button>
   <button>Lees meer</button>
   <button>Lees meer</button>
@@ -8,7 +8,7 @@
   <button>Lees meer</button>
   <button>Lees meer</button>
   <button>Lees meer</button>
-</section>
+</section> -->
 
 <style>
   button {
@@ -21,6 +21,10 @@
     height: 3em;
     width: 7em;
     margin-top: 1em;
+  }
+
+  button:hover {
+    background-color: var(--vtYellow);
   }
 
   .blogbutton1 {
