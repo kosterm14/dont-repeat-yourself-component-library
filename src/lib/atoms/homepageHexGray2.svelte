@@ -5,6 +5,7 @@
         <h3>
             <em>Tekenruimte</em>
         </h3>
+        <img src="assets\arrows_black.svg" alt="">
     </a>
 </section>
 

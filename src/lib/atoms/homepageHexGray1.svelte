@@ -3,8 +3,9 @@
 <section class="h3-gray1">
     <a href="/blog">
         <h3>
-            <em>Blog</em>
+            <em>Artikels</em>
         </h3>
+        <img src="assets\arrows_black.svg" alt="">
     </a>
 </section>
 

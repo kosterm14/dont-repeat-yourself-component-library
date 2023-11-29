@@ -31,6 +31,7 @@
 
     img {
         transform: rotate(270deg);
+        width: 20%;
     }
 
     @media (max-width: 31em) {
