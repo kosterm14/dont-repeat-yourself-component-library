@@ -166,11 +166,12 @@
   }
 
   .imgtekenouders {
-    margin-left: -0.7em;
+    margin-left: 0.2em;
+    height: 10em;
   }
 
   .imgsamentekenen {
-    right: 35em;
+    margin-left: -0.5em;
   }
 
   .imgportret {
