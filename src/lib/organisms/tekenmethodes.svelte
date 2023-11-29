@@ -4,7 +4,7 @@
     import { onMount } from "svelte";
     
     export let data;
-    console.log(data.constructor.length)
+    console.log(data)
     
     let selectedCategoryId = null;
     
