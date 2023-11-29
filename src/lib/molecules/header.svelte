@@ -21,13 +21,12 @@
           <li>Over</li>
           <li>Artikelen</li>
         </ul>
-<section class="yellow-wrapped">
-    <section class="yellow" />
-    <section class="yellow2" />
-    <section class="yellow3" />
-    <section class="yellow4" />
-</section>
-
+        <section class="yellow-wrapped">
+          <section class="yellow" />
+          <section class="yellow2" />
+          <section class="yellow3" />
+          <section class="yellow4" />
+        </section>
       </nav>
     </label>
   </body>
@@ -85,41 +84,55 @@
   }
 
   .yellow-wrapped {
-display: grid;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1%;
+    justify-content: center;
+    margin-right: -13em;
+    margin-top: -3em;
+  }
+
+  .yellow,
+  .yellow2,
+  .yellow3,
+  .yellow4 {
+    width: 80px;
+    height: 70px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    transform: rotate(90deg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    margin-top: -14%;
   }
 
   .yellow {
     background: var(--vtYellow);
-    width: 50px;
-    height: 45px;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    transform: rotate(90deg);
   }
 
   .yellow2 {
-    background: var(--vtYellow);
-    width: 50px;
-    height: 45px;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    transform: rotate(90deg);
+    background: rgb(255, 213, 97);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: -7%;
   }
 
   .yellow3 {
-    background: var(--vtYellow);
-    width: 50px;
-    height: 45px;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    transform: rotate(90deg);
+    background: rgb(255, 213, 97);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    margin-top: -7%;
   }
 
   .yellow4 {
     background: var(--vtYellow);
-    width: 50px;
-    height: 45px;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    transform: rotate(90deg);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    margin-top: -7%;
   }
-
 
   @media (width>580px) {
     input {
@@ -143,6 +156,10 @@ display: grid;
       line-height: 1.6;
       overflow-x: hidden;
       background-color: rgb(255, 255, 255);
+    }
+
+    .yellow-wrapped {
+        display: none;
     }
 
     label .menu {

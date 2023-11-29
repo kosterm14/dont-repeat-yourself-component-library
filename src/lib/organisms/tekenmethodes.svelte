@@ -1724,6 +1724,7 @@
     
       .intro-text {
         grid-area: intro;
+        min-width: 0em;
       }
     
       .intro-text h1 {
