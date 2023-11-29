@@ -7,7 +7,7 @@
 
   <nav class="footer">
 
-  <img src="assets\visual-thinking-logo-footer.svg" alt="footer-logo">
+  <img src="assets\visual-thinking-logo-footer.svg" class="logo-footer" alt="footer-logo">
 
   <ul class="footer-menu">
     <li>Over</li>
@@ -20,7 +20,7 @@
   <h4>Contact</h4>
   <img src="assets\social-media-icons\instagram.svg" alt="instagram">
   <img src="assets\social-media-icons\youtube.svg" alt="youtube">
-  <img src="assets\social-media-icons\instagram.svg" alt="instagram">
+  <img src="assets\iconmonstr-linkedin-3.svg" alt="linkedIn">
   <h5>© Charley Muhren, 2022</h5>
   </ul>
 
@@ -41,15 +41,22 @@
     align-items: center;
     gap: 10px; 
     background-color: rgb(240, 240, 240);
+    font-family: var(--vtPrimaryFont);
 }
 
 li {
     list-style-type: none;
+    margin-bottom: 0.5em;
 }
 
 img {
     grid-column: 1;
-    margin-left: 3em;
+    margin-right: 1em;
+}
+
+.logo-footer {
+    width: 16em;
+    margin-left: 6em;
 }
 
 .footer-menu {
