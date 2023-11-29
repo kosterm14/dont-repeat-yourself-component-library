@@ -52,6 +52,10 @@
     gap: 10px;
   }
 
+  img {
+    margin-left: 4em;
+  }
+
   ul {
     list-style-type: none;
     display: flex;

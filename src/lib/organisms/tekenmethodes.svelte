@@ -31,7 +31,6 @@
     </script>
     
     
-    
     <section class="intro">
       <article class="intro-text">
         <h1>Tekenmethodes</h1>
