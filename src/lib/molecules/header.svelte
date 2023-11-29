@@ -19,7 +19,7 @@
         />
         <ul class="ul-2">
           <li>Over</li>
-          <li>Artikelen</li>
+          <a href="/artikelen"><li>Artikelen</li></a>
         </ul>
         <section class="yellow-wrapped">
           <section class="yellow" />
@@ -159,7 +159,7 @@
     }
 
     .yellow-wrapped {
-        display: none;
+      display: none;
     }
 
     label .menu {
