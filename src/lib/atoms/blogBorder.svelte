@@ -15,12 +15,12 @@
         verwondering, creativiteit en concentratie gebleven zijn.
       </p>
     </section>
-    <!-- <img
+    <img
       class="imgsamentekenen"
       src="/Samen_tekenen_lachen.webp"
       alt=" illustratie samen tekenen"
       loading="lazy"
-    /> -->
+    />
     <section class="cardscolordarkblue">
       <h1>Het ontstaan van de tekenmethode Tekenen, spelen delen</h1>
       <p>
