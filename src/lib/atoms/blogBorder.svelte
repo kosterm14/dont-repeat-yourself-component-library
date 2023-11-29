@@ -15,12 +15,12 @@
         verwondering, creativiteit en concentratie gebleven zijn.
       </p>
     </section>
-    <img
+    <!-- <img
       class="imgsamentekenen"
       src="/Samen_tekenen_lachen.webp"
       alt=" illustratie samen tekenen"
       loading="lazy"
-    />
+    /> -->
     <section class="cardscolordarkblue">
       <h1>Het ontstaan van de tekenmethode Tekenen, spelen delen</h1>
       <p>
@@ -30,7 +30,7 @@
         andere contexten en met andere doelgroepen te werken.
       </p>
     </section>
-    <img class="imgportret" src="/portret.webp" alt=" portret" loading="lazy" />
+    <!-- <img class="imgportret" src="/portret.webp" alt=" portret" loading="lazy" /> -->
     <section class="cardyellow">
       <h1>Interview met docent Oskar Maarleveld</h1>
       <p>
@@ -42,7 +42,7 @@
   </div>
 
   <div class="cards2">
-    <img src="/Docent.webp" alt="illustratie docent" loading="lazy" />
+    <!-- <img src="/Docent.webp" alt="illustratie docent" loading="lazy" /> -->
     <section class="cardscolordarkblue">
       <h1>3 redenen waarom Visual Thinking waardevol is in het onderwijs</h1>
       <p>
@@ -51,12 +51,12 @@
         ultricies vehicula ut id elit. Integer posuere.
       </p>
     </section>
-    <img
+    <!-- <img
       class="imgsketchnotes"
       src="/sketchnotes.webp"
       alt="illustratie sketchnotes "
       loading="lazy"
-    />
+    /> -->
     <section class="cardyellow">
       <h1>Tips bij het gebruik van pijlen in je sketchnotes</h1>
       <p>
@@ -65,12 +65,12 @@
         ultricies vehicula ut id elit. Integer posuere.
       </p>
     </section>
-    <img
+    <!-- <img
       class="imginterview"
       src="/Interview .webp"
       alt="illustratie Interview met Selma Koopman "
       loading="lazy"
-    />
+    /> -->
     <section class="cardscolordarkblue">
       <h1>Interview met Selma Koopman van de Betekenaar</h1>
       <p>
@@ -173,5 +173,48 @@
 
   .imgportret {
     right: 6em;
+  }
+
+  @media only screen and (max-width: 60rem) {
+    .cards,
+    .cards2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cards {
+      margin-bottom: -6em;
+      margin-top: 20em;
+    }
+
+    h1 {
+      position: relative;
+      font-size: larger;
+      font-family: var(--vtPrimaryFont);
+      margin-left: 0.5em;
+    }
+
+    .title {
+      font-size: x-large;
+      font-family: var(--vtPrimaryFont);
+      position: absolute;
+      left: 7.2em;
+      top: 0em;
+    }
+
+    img {
+      width: auto;
+      height: 15em;
+      position: absolute;
+      right: 54.1em;
+      margin-top: -34em;
+    }
+
+    .imgtekenouders {
+      left: 5em;
+      top: 38em;
+    }
   }
 </style>
