@@ -131,7 +131,7 @@
     font-size: larger;
     font-family: var(--vtPrimaryFont);
     color: var(--vtDarkBlue);
-    margin-left: 0.5em;
+    margin-left: 0.4em;
   }
 
   .title {
@@ -147,6 +147,7 @@
     margin-left: 0.5em;
     line-height: 1.5em;
     font-size: 16px;
+    margin-top: -1em;
   }
 
   img {
