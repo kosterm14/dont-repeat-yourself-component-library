@@ -139,7 +139,7 @@
     font-family: var(--vtPrimaryFont);
     color: var(--vtDarkBlue);
     top: 1.5em;
-    left: 2.3em;
+    left: 2.4em;
   }
 
   p {
@@ -163,20 +163,23 @@
   }
 
   .imginterview {
-    left: 57em;
-  }
-
-  .imgtekenouders {
-    margin-left: 0.2em;
-    height: 10em;
-  }
-
-  .imgsamentekenen {
+    height: 12em;
     margin-left: -0.5em;
   }
 
+  .imgtekenouders {
+    margin-left: -0.8em;
+    height: 11.1em;
+  }
+
+  .imgsamentekenen {
+    margin-left: -0.7em;
+    height: 11.5em;
+  }
+
   .imgportret {
-    right: 6em;
+    height: 12em;
+    margin-left: -0.5em;
   }
 
   @media only screen and (max-width: 60rem) {
@@ -210,7 +213,7 @@
 
     img {
       width: auto;
-      height: 15em;
+      height: 11em;
       position: absolute;
       right: 54.1em;
       margin-top: -34em;
