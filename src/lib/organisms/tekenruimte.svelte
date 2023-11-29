@@ -95,6 +95,7 @@
         border-radius: 25px;
         border: 1.5px #090940 solid;
         margin: 0.5em;
+        cursor: url('src/static/assets/cursor-img.jpg') ,auto;
     }
 
     #toolbar {
