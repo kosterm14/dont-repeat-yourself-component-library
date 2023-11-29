@@ -12,11 +12,11 @@
           <a href="/tekenmethodes"><li>Tekenmethodes</li></a>
           <a href="/kennisclips"><li>Kennisclips</li></a>
         </ul>
-        <img
+        <a href="/"> <img
           src="assets\vtHBO-v1.0-Logo_1.svg"
           class="visual-thinking-logo"
           alt="visual-thinking-logo"
-        />
+        /></a>
         <ul class="ul-2">
           <a href="/over"><li>Over</li></a>
           <a href="/artikelen"><li>Artikelen</li></a>
