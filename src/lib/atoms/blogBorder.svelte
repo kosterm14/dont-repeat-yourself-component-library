@@ -130,6 +130,7 @@
     position: relative;
     font-size: larger;
     font-family: var(--vtPrimaryFont);
+    color: var(--vtDarkBlue);
     margin-left: 0.5em;
   }
 

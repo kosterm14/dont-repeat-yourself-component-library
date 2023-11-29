@@ -10,6 +10,10 @@
   <section class="yellow2-2">
     <section class="white2-2" />
   </section>
+
+  <section class="h3-yellow2-2">
+    <h3>2</h3>
+  </section>
 </div>
 
 <style>
@@ -66,5 +70,16 @@
 
   h3 {
     size: 16px;
+    font-family: var(--vtSecondaryFont);
+  }
+
+  .h3-yellow2-1,
+  .h3-yellow2-2 {
+    z-index: 1;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    margin-top: -0.2em;
   }
 </style>
