@@ -1,25 +1,25 @@
-<!-- <div class="grid-container2">
+<div class="grid-container2">
   <section class="yellow2-1">
     <section class="white2-1" />
   </section>
 
   <section class="h3-yellow2-1">
-    <h3>
-      <em>Onderzoeken <br /> en begrijpen</em>
-    </h3>
+    <h3>1</h3>
   </section>
 
   <section class="yellow2-2">
     <section class="white2-2" />
   </section>
-</div> -->
+</div>
 
 <style>
   .grid-container2 {
     display: grid;
     grid-template-columns: auto;
-    margin-top: 15%;
+    margin-top: -6em;
     justify-content: center;
+    position: relative;
+    bottom: 2em;
   }
 
   .yellow2-1,
@@ -51,16 +51,20 @@
 
   .white2-1,
   .white2-2 {
-    width: calc(285px);
-    height: calc(261.25px);
+    width: 68px;
+    height: 59px;
     background-color: white;
     transform: rotate(0deg);
   }
 
   .yellow2-1,
   .yellow2-2 {
-    width: 300px;
-    height: 275px;
+    width: 77px;
+    height: 66px;
     background: var(--vtYellow);
+  }
+
+  h3 {
+    size: 16px;
   }
 </style>
