@@ -1,12 +1,12 @@
 <section>
   <h1 class="title">Artikelen</h1>
   <div class="cards">
-    <img
-      class="imgtekenouders"
-      src="/afbeelding_cover .webp"
-      alt=" illustratie teken met ouders"
-    />
     <section class="cardyellow">
+      <img
+        class="imgtekenouders"
+        src="/afbeelding_cover .webp"
+        alt=" illustratie teken met ouders"
+      />
       <h1>Tekenen en spelen met kinderen (en hun ouders)</h1>
       <p>
         Toen ik klein was, verwonderde ik me over de wereld om me heen en maakte
@@ -15,13 +15,14 @@
         verwondering, creativiteit en concentratie gebleven zijn.
       </p>
     </section>
-    <img
-      class="imgsamentekenen"
-      src="/Samen_tekenen_lachen.webp"
-      alt=" illustratie samen tekenen"
-      loading="lazy"
-    />
+
     <section class="cardscolordarkblue">
+      <img
+        class="imgsamentekenen"
+        src="/Samen_tekenen_lachen.webp"
+        alt=" illustratie samen tekenen"
+        loading="lazy"
+      />
       <h1>Het ontstaan van de tekenmethode Tekenen, spelen delen</h1>
       <p>
         Tijdens mijn master ontwierp ik een methode met ‘verbinding’ als
@@ -30,8 +31,13 @@
         andere contexten en met andere doelgroepen te werken.
       </p>
     </section>
-    <!-- <img class="imgportret" src="/portret.webp" alt=" portret" loading="lazy" /> -->
     <section class="cardyellow">
+      <img
+        class="imgportret"
+        src="/portret.webp"
+        alt=" portret"
+        loading="lazy"
+      />
       <h1>Interview met docent Oskar Maarleveld</h1>
       <p>
         Interview met docent tekenen en vakdidactiek Oskar Maarleveld,
@@ -42,8 +48,8 @@
   </div>
 
   <div class="cards2">
-    <!-- <img src="/Docent.webp" alt="illustratie docent" loading="lazy" /> -->
     <section class="cardscolordarkblue">
+      <img src="/Docent.webp" alt="illustratie docent" loading="lazy" />
       <h1>3 redenen waarom Visual Thinking waardevol is in het onderwijs</h1>
       <p>
         Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a
@@ -51,13 +57,14 @@
         ultricies vehicula ut id elit. Integer posuere.
       </p>
     </section>
-    <!-- <img
-      class="imgsketchnotes"
-      src="/sketchnotes.webp"
-      alt="illustratie sketchnotes "
-      loading="lazy"
-    /> -->
+
     <section class="cardyellow">
+      <img
+        class="imgsketchnotes"
+        src="/sketchnotes.webp"
+        alt="illustratie sketchnotes "
+        loading="lazy"
+      />
       <h1>Tips bij het gebruik van pijlen in je sketchnotes</h1>
       <p>
         vCras mattis consectetur purus sit amet fermentum. Integer posuere erat
@@ -65,13 +72,13 @@
         ultricies vehicula ut id elit. Integer posuere.
       </p>
     </section>
-    <!-- <img
-      class="imginterview"
-      src="/Interview .webp"
-      alt="illustratie Interview met Selma Koopman "
-      loading="lazy"
-    /> -->
     <section class="cardscolordarkblue">
+      <img
+        class="imginterview"
+        src="/Interview .webp"
+        alt="illustratie Interview met Selma Koopman "
+        loading="lazy"
+      />
       <h1>Interview met Selma Koopman van de Betekenaar</h1>
       <p>
         Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a
@@ -84,22 +91,18 @@
 
 <style>
   .cardscolordarkblue {
-    /* width: 14em;
-    height: 20em; */
-    width: 22em;
-    height: 15em;
-    border-radius: 2%;
+    width: 14em;
+    height: 29em;
+    border-radius: 0.5em;
     border: 4px solid var(--vtDarkBlue);
     padding: 0.9em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
   .cardyellow {
-    /* width: 14em;
-    height: 20em; */
-    width: 22em;
-    height: 15em;
-    border-radius: 2%;
+    width: 14em;
+    height: 29em;
+    border-radius: 0.5em;
     border: 4px solid var(--vtYellow);
     padding: 0.9em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -117,13 +120,10 @@
 
   .cards2 {
     margin-top: 1em;
-    position: relative;
-    top: 10em;
   }
 
   .cards {
-    margin-top: 25em;
-    margin-bottom: 10em;
+    margin-top: 9em;
   }
 
   h1 {
@@ -134,29 +134,30 @@
   }
 
   .title {
-    font-size: x-large;
+    font-size: xxx-large;
     font-family: var(--vtPrimaryFont);
-    position: absolute;
+    color: var(--vtDarkBlue);
     top: 1.5em;
-    left: 26.5em;
+    left: 2.3em;
   }
 
   p {
     font-family: var(--vtSecondaryFont);
     margin-left: 0.5em;
     line-height: 1.5em;
+    font-size: 16px;
   }
 
   img {
     width: auto;
-    height: 15em;
-    position: absolute;
-    right: 54.1em;
-    margin-top: -34em;
+    height: 10.1em;
+    margin-top: 0em;
+    left: 1em;
+    margin-left: 0em;
   }
 
   .imgsketchnotes {
-    left: 28em;
+    margin-left: 1.5em;
   }
 
   .imginterview {
