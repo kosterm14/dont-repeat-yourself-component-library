@@ -9,8 +9,8 @@
 
       <nav class="nav-menu">
         <ul class="ul-1">
-          <li>Methodes</li>
-          <li>Kennisclips</li>
+          <a href="/tekenmethodes"><li>Tekenmethodes</li></a>
+          <a href="/kennisclips"><li>Kennisclips</li></a>
         </ul>
         <img
           src="assets\vtHBO-v1.0-Logo_1.svg"
@@ -18,7 +18,7 @@
           alt="visual-thinking-logo"
         />
         <ul class="ul-2">
-          <li>Over</li>
+          <a href="/over"><li>Over</li></a>
           <a href="/artikelen"><li>Artikelen</li></a>
         </ul>
         <section class="yellow-wrapped">
