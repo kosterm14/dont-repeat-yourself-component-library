@@ -9,6 +9,3 @@
     <Tekenmethodes data={data}/>
     <Footer />
 
-
-    
-    
