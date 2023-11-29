@@ -151,7 +151,7 @@
 
   img {
     width: auto;
-    height: 10.1em;
+    height: 11em;
     margin-top: 0em;
     left: 1em;
     margin-left: 0em;
@@ -166,7 +166,7 @@
   }
 
   .imgtekenouders {
-    left: 5em;
+    margin-left: -0.7em;
   }
 
   .imgsamentekenen {
