@@ -1,6 +1,4 @@
 <script>
-
-
     import { onMount } from "svelte";
     
     export let data;
@@ -112,7 +110,7 @@
     
       <main class="tekenmethodes-main">
         <article class="methods">
-          {#if data.methods.length > 0}
+          {#if data && data.methods && data.methods.length > 0}
             {#each data.methods as method, index}
               <section class="method-container" data-index={index}>
                 <a href="/tekenmethodes/{method.slug}" class="link-detail-page">
