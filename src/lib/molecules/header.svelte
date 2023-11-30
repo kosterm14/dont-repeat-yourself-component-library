@@ -12,11 +12,13 @@
           <li>Methodes</li>
           <li>Kennisclips</li>
         </ul>
-        <img
-          src="assets\vtHBO-v1.0-Logo_1.svg"
-          class="visual-thinking-logo"
-          alt="visual-thinking-logo"
-        />
+        <a href="/">
+          <img
+            src="assets\vtHBO-v1.0-Logo_1.svg"
+            class="visual-thinking-logo"
+            alt="visual-thinking-logo"
+          />
+        </a>
         <ul class="ul-2">
           <li>Over</li>
           <a href="/artikelen"><li>Artikelen</li></a>
@@ -33,15 +35,17 @@
 </section>
 
 <style>
-  :root {
-    --vtPrimaryFont: "rigid-square", sans-serif;
-    --vtSecondaryFont: "yrsa", serif;
-  }
-
   body {
     margin: 0;
     padding: 0;
     box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    color: var(--vtDarkBlue);
+
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .nav-menu {
@@ -50,6 +54,7 @@
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     gap: 10px;
+    justify-items: center;
   }
 
   ul {

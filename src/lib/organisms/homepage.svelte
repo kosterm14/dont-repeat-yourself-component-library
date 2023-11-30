@@ -30,7 +30,22 @@
     .grid-container {
         display: grid;
         grid-template-columns: auto;
-        margin-top: 1%;
+        margin-top: 5%;
         justify-content: center;
+    }
+
+    /* tablet */
+    @media (min-width: 31em) and (max-width: 55em) {
+        .grid-container {
+            margin-top: 0%;
+        }
+    }
+
+    /* mobile */
+    @media (max-width: 31em) {
+        .grid-container {
+            margin-top: -7%;
+            justify-content: normal;
+        }
     }
 </style>
