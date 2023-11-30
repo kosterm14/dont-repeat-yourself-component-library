@@ -5,11 +5,16 @@
 		<h3>
 			<em>Ontdek de <br />visual thinking <br /> methodes</em>
 		</h3>
-		<img src="assets\arrows.svg" alt="">
+		<img src="assets\arrows.svg" alt="" />
 	</a>
 </section>
 
 <style>
+	.h3-yellow:hover h3 {
+        /* color: var(--vtSec-Green); */
+		text-transform: uppercase;
+    }
+
 	.yellow {
 		background: var(--vtYellow);
 
@@ -58,19 +63,27 @@
 		font-size: 1rem;
 	}
 
+	/* tablet */
+	@media (min-width: 31em) and (max-width: 55em) {
+		.yellow,
+		.h3-yellow {
+			grid-column-start: 2;
+			grid-column-end: 4;
+			grid-row-start: 5;
+
+			margin-bottom: 15%;
+		}
+	}
+
+	/* mobile */
 	@media (max-width: 31em) {
 		.yellow,
 		.h3-yellow {
 			grid-column-start: 2;
-            grid-column-end: 4;
-            grid-row-start: 4;
+			grid-column-end: 3;
+			grid-row-start: 4;
 
-			margin-bottom: 15%;
-		}
-
-		.yellow {
-			width: 252px;
-			height: 231px;
+			margin-left: -25%;
 		}
 	}
 </style>

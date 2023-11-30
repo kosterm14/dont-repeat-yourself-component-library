@@ -4,10 +4,15 @@
 	<h3>
 		<em>Minicursussen</em>
 	</h3>
-	<img src="assets\arrows.svg" alt="">
+	<img src="assets\arrows.svg" alt="" />
 </section>
 
 <style>
+	.h3-red:hover h3 {
+        /* color: var(--vtSec-Green); */
+		text-transform: uppercase;
+    }
+
 	.red {
 		background: var(--vtRed);
 
@@ -50,19 +55,27 @@
 		font-size: 1rem;
 	}
 
-	@media (max-width: 31em) {
+	/* tablet */
+	@media (min-width: 31em) and (max-width: 55em) {
 		.red,
 		.h3-red {
 			grid-column-start: 3;
-            grid-column-end: 5;
-            grid-row-start: 3;
+			grid-column-end: 5;
+			grid-row-start: 4;
 
 			margin-top: -20%;
 		}
+	}
 
-		.red {
-			width: 252px;
-			height: 231px;
+	/* mobile */
+	@media (max-width: 31em) {
+		.red,
+		.h3-red {
+			grid-column-start: 1;
+			grid-column-end: 2;
+			grid-row-start: 5;
+
+			margin-left: 25%;
 		}
 	}
 </style>
