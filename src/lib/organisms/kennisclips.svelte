@@ -7,6 +7,7 @@
   <p>{@html category.content.html}</p>
   {category.knowledgeClip.url}
 {/each} -->
+
 <main>
 
 {#each data.categories as category}
@@ -18,17 +19,25 @@
 
     <aside>
     <button>
-    <button onclick="myFunction()">Click Me</button>
+    <button onclick="myFunction()">Previous</button>
     </button>
+    
 
     <a href={category.knowledgeClip.url}>{category.knowledgeClip.url}</a>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yr-rRMElLFg" frameborder="0" allowfullscreen></iframe> -->
    
     
     <button>
-   <button  onclick="myFunction()">Click Me</button>
+   <button  onclick="myFunction()">Next</button>
     </button>
     </aside>
+
+    <!-- <section class="yellow-wrapped">
+      <section class="yellow" />
+      <section class="yellow2" />
+      <section class="yellow3" />
+      <section class="yellow4" />
+    </section> -->
 
   </article>
 {/each}
@@ -138,16 +147,68 @@
 
   button{
       display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
+      /* padding: 10px 10px; */
+      font-size: 10px;
       text-align: center;
       text-decoration: none;
       cursor: pointer;
       border-radius: 5px;
-      background-color: #3498db;
+      background-color: var(--vtDarkBlue);
       color: #ffffff;
-      border: 2px solid #3498db;
+      border: 2px solid var(--vtDarkBlue);
+      
 
   }
 
+    /* Hexagon */
+
+.yellow-wrapped {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1%;
+    justify-content: center;
+    margin-right: -13em;
+    margin-top: -3em;
+  }
+
+  .yellow,
+  .yellow2,
+  .yellow3,
+  .yellow4 {
+    width: 80px;
+    height: 70px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    transform: rotate(90deg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    margin-top: -14%;
+  }
+
+  .yellow {
+    background: var(--vtYellow);
+  }
+    .yellow2 {
+    background: rgb(255, 213, 97);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: -7%;
+  }
+
+  .yellow3 {
+    background: rgb(255, 213, 97);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    margin-top: -7%;
+  }
+
+  .yellow4 {
+    background: var(--vtYellow);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    margin-top: -7%;
+  }
 </style>
