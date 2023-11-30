@@ -161,4 +161,4 @@
     </main>
 </body>
 
-<Footer />
+<!-- <Footer /> -->
