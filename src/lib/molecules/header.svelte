@@ -16,9 +16,9 @@
           <img
             src="assets\vtHBO-v1.0-Logo_1.svg"
             class="visual-thinking-logo"
-            alt="visual-thinking-logo"
-          />
+            alt="visual-thinking-logo">
         </a>
+
         <ul class="ul-2">
           <a href="/over"><li>Over</li></a>
           <a href="/artikelen"><li>Artikelen</li></a>
@@ -43,9 +43,12 @@
 
   a {
     color: var(--vtDarkBlue);
-
     text-decoration: none;
     cursor: pointer;
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
   .nav-menu {
@@ -58,7 +61,7 @@
   }
 
   img {
-    margin-left: 4em;
+    margin-left: -1em;
   }
 
   ul {
@@ -97,7 +100,7 @@
     grid-template-columns: auto;
     margin-top: 1%;
     justify-content: center;
-    margin-right: -13em;
+    /* margin-right: -13em; */
     margin-top: -3em;
   }
 
@@ -147,12 +150,27 @@
     input {
       display: none;
     }
+
+    /* label {
+            display: none;
+		} */
+
+    a:link {
+      text-decoration: none;
+      font-family: var(--vtPrimaryFont), sans-serif; 
+      font-weight: 700;
+    }
+
+    nav {
+      background-color: rgb(255, 252, 249);
+      padding: 2em;
+    }
   }
 
   @media (width<580px) {
     /* nav {
-            display: none;
-        } */
+      display: none;
+    } */
 
     *,
     *:before,

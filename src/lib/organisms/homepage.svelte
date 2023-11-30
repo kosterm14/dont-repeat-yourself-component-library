@@ -31,6 +31,7 @@
         display: grid;
         grid-template-columns: auto;
         margin-top: 5%;
+        margin-bottom: 5%;
         justify-content: center;
     }
 
