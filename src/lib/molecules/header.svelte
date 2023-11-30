@@ -9,8 +9,8 @@
 
       <nav class="nav-menu">
         <ul class="ul-1">
-          <li>Methodes</li>
-          <li>Kennisclips</li>
+          <a href="/tekenmethodes"><li>Tekenmethodes</li></a>
+          <a href="/kennisclips"><li>Kennisclips</li></a>
         </ul>
         <a href="/">
           <img
@@ -20,7 +20,7 @@
           />
         </a>
         <ul class="ul-2">
-          <li>Over</li>
+          <a href="/over"><li>Over</li></a>
           <a href="/artikelen"><li>Artikelen</li></a>
         </ul>
         <section class="yellow-wrapped">
@@ -55,6 +55,10 @@
     align-items: center;
     gap: 10px;
     justify-items: center;
+  }
+
+  img {
+    margin-left: 4em;
   }
 
   ul {

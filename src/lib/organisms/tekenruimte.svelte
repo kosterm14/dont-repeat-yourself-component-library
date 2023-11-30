@@ -1,6 +1,5 @@
 <script>
-    import Header from "$lib/molecules/header.svelte";
-    import Footer from "$lib/molecules/footer.svelte";
+
     import { onMount } from "svelte";
     onMount(() => {
         const canvas = document.getElementById("drawing-board");
@@ -56,8 +55,6 @@
     console.log();
 </script>
 
-<Header />
-
 <main>
     <div class="labeltekst"><h1>Teken hier!</h1></div>
     <section class="container">
@@ -75,7 +72,6 @@
     </section>
 </main>
 
-<Footer />
 
 <style>
     .labeltekst {
@@ -95,7 +91,7 @@
         border-radius: 25px;
         border: 1.5px #090940 solid;
         margin: 0.5em;
-        cursor: url('src/static/assets/cursor-img.jpg') ,auto;
+        cursor: url('cursor-img.jpg');
     }
 
     #toolbar {

@@ -4,7 +4,7 @@
     import { onMount } from "svelte";
     
     export let data;
-    // console.log(data)
+    console.log(data)
     
     let selectedCategoryId = null;
     
@@ -29,7 +29,6 @@
     }
         
     </script>
-    
     
     
     <section class="intro">
