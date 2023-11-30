@@ -1,5 +1,4 @@
 <script>
-    import Footer from "../../../../lib/components/footer.svelte";
 
     export let data;
     // console.log(data);
@@ -99,4 +98,4 @@
     </main>
 </body>
 
-<Footer />
+<!-- <Footer /> -->
