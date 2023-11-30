@@ -9,47 +9,36 @@
 {/each} -->
 
 <main>
+  {#each data.categories as category}
+    <article class="category">
+      <h2>{category.title}</h2>
+      <p>{@html category.content.html}</p>
 
-{#each data.categories as category}
+      <aside>
+        <button>
+          <button onclick="myFunction()">Previous</button>
+        </button>
 
-  <article class="category">
-    <h2>{category.title}</h2>
-    <p>{@html category.content.html}</p>
+        <a href={category.knowledgeClip.url}>{category.knowledgeClip.url}</a>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yr-rRMElLFg" frameborder="0" allowfullscreen></iframe> -->
 
+        <button>
+          <button onclick="myFunction()">Next</button>
+        </button>
+      </aside>
 
-    <aside>
-    <button>
-    <button onclick="myFunction()">Previous</button>
-    </button>
-    
-
-    <a href={category.knowledgeClip.url}>{category.knowledgeClip.url}</a>
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yr-rRMElLFg" frameborder="0" allowfullscreen></iframe> -->
-   
-    
-    <button>
-   <button  onclick="myFunction()">Next</button>
-    </button>
-    </aside>
-
-    <!-- <section class="yellow-wrapped">
+      <!-- <section class="yellow-wrapped">
       <section class="yellow" />
       <section class="yellow2" />
       <section class="yellow3" />
       <section class="yellow4" />
     </section> -->
-
-  </article>
-{/each}
-
+    </article>
+  {/each}
 </main>
 
-
-
-
 <style>
-
-:root {
+  :root {
     /* Visual Thinking: Primary Colors: Zie kleuren styleguide of eventueel Figma designs voor gebruik! */
 
     --vtDarkBlue: #090940;
@@ -104,7 +93,7 @@
     margin-right: 1.5em;
   }
 
-   .h1-detail {
+  .h1-detail {
     padding-left: 6.7rem;
     max-width: 30rem;
     max-height: 6rem;
@@ -131,7 +120,7 @@
     line-height: 1.5rem;
   }
 
-    /* Kennisclip teksten */
+  /* Kennisclip teksten */
 
   p {
     text-align: left;
@@ -141,28 +130,25 @@
     margin-right: 3em;
     font-family: var(--vtPrimaryFont);
     font-size: 1em;
-
   }
   /* Arrow buttons */
 
-  button{
-      display: inline-block;
-      /* padding: 10px 10px; */
-      font-size: 10px;
-      text-align: center;
-      text-decoration: none;
-      cursor: pointer;
-      border-radius: 5px;
-      background-color: var(--vtDarkBlue);
-      color: #ffffff;
-      border: 2px solid var(--vtDarkBlue);
-      
-
+  button {
+    display: inline-block;
+    /* padding: 10px 10px; */
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--vtDarkBlue);
+    color: #ffffff;
+    border: 2px solid var(--vtDarkBlue);
   }
 
-    /* Hexagon */
+  /* Hexagon */
 
-.yellow-wrapped {
+  .yellow-wrapped {
     display: grid;
     grid-template-columns: auto;
     margin-top: 1%;
@@ -188,7 +174,7 @@
   .yellow {
     background: var(--vtYellow);
   }
-    .yellow2 {
+  .yellow2 {
     background: rgb(255, 213, 97);
     grid-column-start: 3;
     grid-column-end: 5;
