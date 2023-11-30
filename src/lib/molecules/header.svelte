@@ -100,7 +100,7 @@
     grid-template-columns: auto;
     margin-top: 1%;
     justify-content: center;
-    /* margin-right: -13em; */
+    margin-right: -13em;
     margin-top: -3em;
   }
 
