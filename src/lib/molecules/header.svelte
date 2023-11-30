@@ -9,16 +9,18 @@
 
       <nav class="nav-menu">
         <ul class="ul-1">
-          <li>Methodes</li>
-          <li>Kennisclips</li>
+          <a href="/tekenmethodes"><li>Tekenmethodes</li></a>
+          <a href="/kennisclips"><li>Kennisclips</li></a>
         </ul>
-        <img
-          src="assets\vtHBO-v1.0-Logo_1.svg"
-          class="visual-thinking-logo"
-          alt="visual-thinking-logo"
-        />
+        <a href="/">
+          <img
+            src="assets\vtHBO-v1.0-Logo_1.svg"
+            class="visual-thinking-logo"
+            alt="visual-thinking-logo">
+        </a>
+
         <ul class="ul-2">
-          <li>Over</li>
+          <a href="/over"><li>Over</li></a>
           <a href="/artikelen"><li>Artikelen</li></a>
         </ul>
         <section class="yellow-wrapped">
@@ -33,15 +35,20 @@
 </section>
 
 <style>
-  :root {
-    --vtPrimaryFont: "rigid-square", sans-serif;
-    --vtSecondaryFont: "yrsa", serif;
-  }
-
   body {
     margin: 0;
     padding: 0;
     box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    color: var(--vtDarkBlue);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
   .nav-menu {
@@ -50,6 +57,11 @@
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     gap: 10px;
+    justify-items: center;
+  }
+
+  img {
+    margin-left: -1em;
   }
 
   ul {
@@ -88,7 +100,7 @@
     grid-template-columns: auto;
     margin-top: 1%;
     justify-content: center;
-    margin-right: -13em;
+    /* margin-right: -13em; */
     margin-top: -3em;
   }
 
@@ -138,12 +150,27 @@
     input {
       display: none;
     }
+
+    /* label {
+            display: none;
+		} */
+
+    a:link {
+      text-decoration: none;
+      font-family: var(--vtPrimaryFont), sans-serif; 
+      font-weight: 700;
+    }
+
+    nav {
+      background-color: rgb(255, 252, 249);
+      padding: 2em;
+    }
   }
 
   @media (width<580px) {
     /* nav {
-            display: none;
-        } */
+      display: none;
+    } */
 
     *,
     *:before,

@@ -10,6 +10,11 @@
 </section>
 
 <style>
+    .h3-gray2:hover h3 {
+        /* color: var(--vtSec-Green); */
+        text-transform: uppercase;
+    }
+
     .gray2 {
         background: var(--vtGrey-50);
 
@@ -59,19 +64,27 @@
         font-size: 1rem;
     }
 
-    @media (max-width: 31em) {
+    /* tablet */
+    @media (min-width: 31em) and (max-width: 55em) {
         .gray2,
         .h3-gray2 {
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 5;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 6;
 
             margin-top: -20%;
         }
+    }
 
-        .gray2 {
-            width: 252px;
-            height: 231px;
+    /* mobile */
+    @media (max-width: 31em) {
+        .gray2,
+        .h3-gray2 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 8;
+
+            margin-left: -25%;
         }
     }
 </style>
