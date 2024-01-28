@@ -1,58 +1,69 @@
-# create-svelte
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Visual Thinking
+<img src='https://github.com/kosterm14/dont-repeat-yourself-component-library/assets/112856683/6695c562-362d-463b-ab9b-1cfc387920ea' width=50%>
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+## 📚 Inhoudsopgave
 
-## Creating a project
+* [Beschrijving](#beschrijving)
+* [Kenmerken](#kenmerken)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🗒️ Beschrijving
+<strong>Visual thinking 🖌️:</strong>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<p> Wij gaan de website van Visual Thinking verbeteren en aanvullen. <br> 
+</p>
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## 💻👨🏻‍💻👨🏼‍💻 Gebruik
 
-## Developing
+Visual thinking leert studenten en docenten hun gedachten en doelen te verbeelden.
+Het helpt ze bij het creëren van overzicht en het overbrengen van hun boodschap.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
 
-```bash
-npm run dev
+Lijst met gebruikte tools, technieken en communicatie middelen.
+Dit project is gemaakt met Sveltekit en Hygraph.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Sveltekit: Dit is een framework. SvelteKit biedt extra mogelijkheden bovenop Svelte, zoals routing, statische site generation (SSG) en server-side rendering (SSR).
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+Hygraph: Dit is een headless CMS. Hierin heeft Charley al haar data staan.
 
-## Building
 
-To build your library:
+<ul>
+<li><strong>TOOLS 🧰:</strong></li>
+<li>VSCode</li>
+<li>Pen & Papier</li>
+<li>Laptop</li>
+</ul>
 
-```bash
-npm run package
-```
+<ul>
+<li><strong>GEBRUIKTE TECHNIEKEN 🛠️:</strong></li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Sveltekit<li>
+<li>Hygraph<li>
+</ul>
 
-To create a production version of your showcase app:
+<ul>
+<li><strong>COMMUNICATIE MIDDELEN 🗣️:</strong></li>
+<li>Microsoft Teams</li>
+ <li>Whatsapp</li>
+</ul>
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
+## 🌐 Bronnen
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<ul>
+<li>https://github.com//</li>
+<li>https://www.google.nl/</li>
+</ul>
 
-## Publishing
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
 
-To publish your library to [npm](https://www.npmjs.com):
+## 🔒 Licentie
 
-```bash
-npm publish
-```
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
